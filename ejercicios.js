@@ -126,9 +126,9 @@ const getFullNames = (data) => data.map((person) => {
     });
   };
   
-  console.log(getFullNames(data));
-  console.log(getOldestAndYoungest(data));
-  console.log(getOldestAndYoungestReduce(data));
-  console.log(restructureData(data));
+  console.log(getFullNames(personas));
+  console.log(getOldestAndYoungest(personas));
+  console.log(getOldestAndYoungestReduce(personas));
+  console.log(restructureData(personas));
   
   
